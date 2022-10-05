@@ -2,7 +2,7 @@ class config:
     BOT_TOKEN = "5629198929:AAFfLka7SvFMnLDji2Vd4Yytbh_InYB7M5s"
     APP_ID = "17156072"
     API_HASH = "b06efafbeb8182fe942264caccc65aa8"
-    DATABASE_URL = ""
+    DATABASE_URL = "python SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL').replace("postgres://", "postgresql://", 1)"
     SUDO_USERS = "915976564" # Sepearted by space.
     SUPPORT_CHAT_LINK = "-1001584188103"
     DOWNLOAD_DIRECTORY = "./downloads/"
